@@ -365,7 +365,8 @@ const App = (props) => {
 // highlight-start      
       <div>
         <button onClick={() => setShowAll(!showAll)}>
-          show {showAll ? 'important' : 'all'}
+          show {showAll ? 'important' : 'all'}//I think we need to display all if showAll is true not otherwise.
+          proposed changes: show {showAll? 'all': 'important'}
         </button>
       </div>
 // highlight-end            
